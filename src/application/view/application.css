@@ -1,0 +1,151 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.background {
+    -fx-background-color: #FFFFFF;
+    -fx-background-image: url("../../../grafiki/szachy.jpg");
+}
+
+.button-menu {
+	-fx-border-color:  #d8d8d8;
+	-fx-border-width: 2;
+	-fx-background-color: #1d1d1d;
+	-fx-font-family: "Segoe UI";
+	-fx-font-size: 11pt;
+	-fx-text-fill: #d8d8d8;
+}
+
+.button-menu:hover {
+    -fx-background-color: #3a3a3a;
+}
+
+.button-menu:pressed, .button:default:hover:pressed {
+ 	-fx-background-color: #d8d8d8;
+	-fx-text-fill: #1d1d1d;
+ 	-fx-border-color: #1d1d1d;
+}
+
+.exit-btn{
+	-fx-background-image: url("../../../grafiki/exit.png");
+	-fx-background-color: #A0A0A0;
+}
+
+.exit-btn:hover {
+	-fx-border-color:  #d8d8d8;
+	-fx-border-width: 2;
+	-fx-background-color: #d8d8d8;
+}
+
+.exit-btn:pressed, .button:default:hover:pressed {
+	-fx-background-image: url("../../../grafiki/exit.png");
+	-fx-background-color: #a0a0a0;
+	-fx-border-width: 2;
+ 	-fx-border-color: #1d1d1d;
+}
+
+.label {
+	-fx-background-color: #1d1d1d;
+	-fx-font-family: "Segoe UI";
+	-fx-font-size: 11pt;
+	-fx-text-fill: #d8d8d8;
+}
+
+.toggle-button {
+	-fx-border-color:  #d8d8d8;
+	-fx-border-width: 2;
+	-fx-background-color: #1d1d1d;
+	-fx-font-family: "Segoe UI";
+	-fx-font-size: 11pt;
+	-fx-text-fill: #d8d8d8;
+}
+
+.toggle-button:hover {
+	-fx-background-color: #3a3a3a;
+}
+
+.toggle-button:selected {
+	-fx-text-fill: #1d1d1d;
+ 	-fx-border-color: #1d1d1d;
+ 	-fx-background-color: #a0a0a0;
+ 	-fx-border-color: #1d1d1d;      
+}
+
+.slider {
+	-fx-color: red;
+}
+
+.slider .track{
+	-fx-background-color: #a0a0a0;
+}
+
+.slider .axis {
+	-fx-tick-label-fill: red;
+}
+
+.table-view {
+    -fx-base: #1d1d1d;
+    -fx-control-inner-background: #1d1d1d;
+    -fx-background-color: #1d1d1d;
+    -fx-padding: 5;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-size: 35;
+    -fx-border-width: 0 0 0 0;
+    -fx-background-color: transparent;
+    -fx-border-color: 
+        transparent
+        transparent
+        derive(-fx-base, 80%) 
+        transparent;
+    -fx-border-insets: 0 10 1 0;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-alignment: center-left;
+    -fx-opacity: 1;
+   	-fx-text-alignment: center;
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: -fx-focus-color;
+}
+
+.split-pane:horizontal .split-pane-divider{
+	-fx-background-color: #1d1d1d;
+}
+
+.split-pane:vertical .split-pane-divider{
+	-fx-background-color: #1d1d1d;
+}
+
+.mini-board {
+	-fx-border-width: 2;
+	-fx-border-color: #1d1d1d;
+}
+
+.rectangle-white {
+	-fx-fill: linear-gradient(#ffffff 0%, #dddddd 25%, #bbbbbb 75%, #999999 100%);
+	/*-fx-fill: #FFFFFF;*/
+	-fx-stroke: #000000;
+	-fx-stroke-width: 0;
+}
+
+.rectangle-black {
+	-fx-fill: linear-gradient(#000000 0%, #a0a0a0 25%, #1d1d1d 75%, #1d1d1d 100%);
+	/*-fx-fill: #000000;*/
+	-fx-stroke: #FFFFFF;
+	-fx-stroke-width: 0;
+}
+
+.rectangle-active {
+	-fx-fill: linear-gradient(#00ff00 0%, #00aa00 100%);
+	-fx-stroke: #00ff00;
+	-fx-stroke-width: 0;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MenuController">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0" styleClass="background" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="onePlayer" layoutX="200.0" layoutY="120.0" mnemonicParsing="false" onAction="#onePlayerClick" prefWidth="200.0" styleClass="button-menu" text="Jeden gracz" textAlignment="CENTER" />
+            <Button fx:id="twoPlayers" layoutX="200.0" layoutY="160.0" mnemonicParsing="false" onAction="#twoPlayersClick" prefWidth="200.0" styleClass="button-menu" text="Dwóch graczy" textAlignment="CENTER" />
+            <Button fx:id="ustawienia" layoutX="200.0" layoutY="200.0" mnemonicParsing="false" onAction="#ustawieniaClick" prefWidth="200.0" styleClass="button-menu" text="Ustawienia" />
+            <Button fx:id="exit" layoutX="536.0" layoutY="336.0" mnemonicParsing="false" onAction="#exitClick" prefHeight="50.0" prefWidth="50.0" styleClass="exit-btn" textAlignment="CENTER" />
+            <Button fx:id="loadHistory" layoutX="200.0" layoutY="240.0" mnemonicParsing="false" onAction="#loadHistoryClick" prefWidth="200.0" styleClass="button-menu" text="Wczytaj Historię" textAlignment="CENTER" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
